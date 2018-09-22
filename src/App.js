@@ -1,15 +1,7 @@
 import React, { Component } from "react";
 
-function HelloEsma() {
-  return <li>Hello Esma</li>;
-}
-
-function HelloHussein() {
-  return <li>Hello Hussein</li>;
-}
-
-function HelloOktay() {
-  return <li>Hello Oktay</li>;
+function Hello(props) {
+  return <li>Hello {props.name} </li>;
 }
 
 function App() {
@@ -17,9 +9,9 @@ function App() {
     <div>
       <h1>Hello World</h1>
       <ul>
-        <HelloEsma />
-        <HelloHussein />
-        <HelloOktay />
+        <Hello name="Esma" />
+        <Hello name="Hussein" />
+        <Hello name="Oktay" />
       </ul>
     </div>
   );
