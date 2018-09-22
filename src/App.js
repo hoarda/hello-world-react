@@ -13,7 +13,7 @@ function App() {
         <Hello name="Hussein" />
         <Hello name="Oktay" />
       </ul>
-      <p>Copyright 2018</p>
+      <p>Copyright 2018 by Hasan Oktay ARDA</p>
     </div>
   );
 }
