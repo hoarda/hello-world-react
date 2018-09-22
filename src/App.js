@@ -3,6 +3,13 @@ import React, { Component } from "react";
 function Hello(props) {
   return <li>Hello {props.name} </li>;
 }
+function Copyright(props) {
+  return (
+    <li>
+      Copyright {props.year} by {props.name}
+    </li>
+  );
+}
 
 function App() {
   return (
@@ -13,7 +20,7 @@ function App() {
         <Hello name="Hussein" />
         <Hello name="Oktay" />
       </ul>
-      <p>Copyright 2018 by Hasan Oktay ARDA</p>
+      <Copyright name=" Ugur ARDA" year="2019" />
     </div>
   );
 }
